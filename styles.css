@@ -1,0 +1,28 @@
+.caption {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin: 20px;
+}
+.logo {
+  border: 1px solid black;
+}
+.board {
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 90%;
+  margin: 50px auto;
+  table-layout: fixed;
+}
+.board > tbody {
+  background-color: white;
+}
+.board > tbody > tr:nth-of-type(odd) {
+  background-color: #eee;
+}
+.board > tbody > tr:hover{
+  background-color: lightskyblue;
+}
+.board tr {
+  transition-duration: 0.2s;
+  transition-property: background-color;
+}
